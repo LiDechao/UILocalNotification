@@ -20,6 +20,8 @@
 		F45275CA197626E900017F71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F45275C8197626E900017F71 /* InfoPlist.strings */; };
 		F45275CC197626E900017F71 /* LocalPush_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45275CB197626E900017F71 /* LocalPush_TestTests.m */; };
 		F45275D71976272B00017F71 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45275D61976272B00017F71 /* RootViewController.m */; };
+		F4FD65E31982727E00F9A20E /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FD65E11982727E00F9A20E /* Master.m */; };
+		F4FD65E41982727E00F9A20E /* Master.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FD65E21982727E00F9A20E /* Master.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		F45275CB197626E900017F71 /* LocalPush_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalPush_TestTests.m; sourceTree = "<group>"; };
 		F45275D51976272B00017F71 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F45275D61976272B00017F71 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F4FD65E01982727E00F9A20E /* Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Master.h; sourceTree = "<group>"; };
+		F4FD65E11982727E00F9A20E /* Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Master.m; sourceTree = "<group>"; };
+		F4FD65E21982727E00F9A20E /* Master.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Master.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 		F452759A197626E900017F71 = {
 			isa = PBXGroup;
 			children = (
+				F4FD65E01982727E00F9A20E /* Master.h */,
+				F4FD65E11982727E00F9A20E /* Master.m */,
+				F4FD65E21982727E00F9A20E /* Master.xib */,
 				F45275AC197626E900017F71 /* LocalPush_Test */,
 				F45275C5197626E900017F71 /* LocalPush_TestTests */,
 				F45275A5197626E900017F71 /* Frameworks */,
@@ -224,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4FD65E41982727E00F9A20E /* Master.xib in Resources */,
 				F45275B1197626E900017F71 /* InfoPlist.strings in Resources */,
 				F45275B9197626E900017F71 /* Images.xcassets in Resources */,
 			);
@@ -247,6 +256,7 @@
 				F45275B7197626E900017F71 /* AppDelegate.m in Sources */,
 				F45275B3197626E900017F71 /* main.m in Sources */,
 				F45275D71976272B00017F71 /* RootViewController.m in Sources */,
+				F4FD65E31982727E00F9A20E /* Master.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +455,7 @@
 				F45275D1197626EA00017F71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F45275D2197626EA00017F71 /* Build configuration list for PBXNativeTarget "LocalPush_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +464,7 @@
 				F45275D4197626EA00017F71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
